@@ -70,7 +70,7 @@
                 <configuration>
                     <compositeName>${project.artifactId}</compositeName>
                     <composite>${scac.input}</composite>
-                    <sarLocation>${sarLocation}.jar</sarLocation>
+                    <sarLocation>sca_${project.artifactId}-${project.version}.jar</sarLocation>
                     <serverUrl>${serverUrl}</serverUrl>
                     <user>${user}</user>
                     <password>${password}</password>
